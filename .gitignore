@@ -1,13 +1,39 @@
-# Byte-compiled / optimized / DLL files
+# ==============================================================================
+# SNA Group 09 - Git Ignore Configuration
+# Topic C.10: Making Graph Machine Learning Models Explainable
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Byte-compiled / optimized / Python runtime
+# ------------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C/C++ extensions
 *.so
-
-# Distribution / packaging
 .Python
+
+# ------------------------------------------------------------------------------
+# 2. Jupyter Notebook Checkpoints & Cache
+# (Tránh commit các file checkpoint tự động sinh ra khi mở Jupyter)
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ------------------------------------------------------------------------------
+# 3. Virtual Environments & Package Managers
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+miniconda3/
+
+# Packaging & Builds
 build/
 develop-eggs/
 dist/
@@ -26,42 +52,72 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Virtual environments & Conda
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-miniconda3/
-
-# IDE & Editor settings
+# ------------------------------------------------------------------------------
+# 4. IDEs, Editors & OS Files
+# ------------------------------------------------------------------------------
+# Visual Studio Code & PyCharm
 .vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 .idea/
 *.swp
 *.swo
 *~
 
-# Temporary & Log files
+# Windows & macOS metadata
+Thumbs.db
+desktop.ini
+ehthumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ------------------------------------------------------------------------------
+# 5. Heavy Model Checkpoints & Large Graph Data
+# (LƯU TRỮ TRÊN GOOGLE DRIVE, TUYỆT ĐỐI KHÔNG PUSH LÊN GITHUB)
+# Link Drive: https://drive.google.com/drive/folders/1AXfG73xtbbCh3K1gopr-MDdEPYzaN51a?usp=sharing
+# ------------------------------------------------------------------------------
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.onnx
+*.pkl
+*.pickle
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# PyTorch Geometric raw downloads (nếu tự động tải các dataset mới)
+**/processed/
+**/raw/
+
+# Temporary Google Drive extracted archives
+*20261017*
+[2]*
+
+# ------------------------------------------------------------------------------
+# 6. Training Logs, Profiling & Caches
+# ------------------------------------------------------------------------------
 *.log
 *.tmp
 $env:TEMP/
 make_notebook.py
 build_demo_nb.py
+runs/
+wandb/
+*.tfevents*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Heavy checkpoint files (Lưu trữ trên Google Drive, không push lên GitHub)
-# Link Drive: https://drive.google.com/drive/folders/1AXfG73xtbbCh3K1gopr-MDdEPYzaN51a?usp=sharing
-*.pt
-*.pth
-*.ckpt
-*.bin
-*.tar.gz
-*.zip
-
-# Temporary Google Drive extracted folder
-*20261017*
-[2]*
-
-# Ngoại lệ: Giữ lại sample CSV nhỏ và README minh chứng
+# ------------------------------------------------------------------------------
+# 7. EXCEPTIONS (Luôn giữ lại trên Git làm minh chứng nghiên cứu)
+# ------------------------------------------------------------------------------
 !sample_edge_scores.csv
+!notebooks/**/*.ipynb
