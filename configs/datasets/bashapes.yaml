@@ -1,0 +1,33 @@
+# Cấu hình dataset và model BA-Shapes
+dataset:
+  name: "bashapes"
+  nodes: 700
+  features: 10
+  classes: 4
+  split: "60/20/20 stratified by node"
+  split_seed: 0
+
+model:
+  arch: "gcn"
+  layers: 2
+  hidden_dim: 32
+  dropout: 0.0
+  lr: 0.01
+  weight_decay: 0.0001
+  epochs: 600
+  class_weights: [0.5833, 1.0938, 1.0938, 2.1875]
+  selection: "best_val_macro_f1"
+
+explainers:
+  saliency:
+    target: "pred"
+  gnnexplainer:
+    epochs: 200
+    lr: 0.01
+    coeff_size: 0.005
+    coeff_ent: 0.1
+  pgexplainer:
+    epochs: 40
+    lr: 0.005
+    temp_init: 5.0
+    temp_min: 0.5

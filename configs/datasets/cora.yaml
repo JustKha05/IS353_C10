@@ -1,0 +1,30 @@
+# Cấu hình dataset và model Cora
+dataset:
+  name: "cora"
+  nodes: 2708
+  features: 1433
+  classes: 7
+  split: "Planetoid public: 140 train / 500 val / 1000 test (1068 unlabeled)"
+  split_seed: 0
+
+model:
+  arch: "gcn"
+  layers: 2
+  hidden_dim: 64
+  dropout: 0.5
+  lr: 0.01
+  weight_decay: 0.0005
+  epochs: 200
+  selection: "best_val_acc"
+
+explainers:
+  saliency:
+    target: "pred"
+  gnnexplainer:
+    epochs: 200
+    lr: 0.01
+    coeff_size: 0.005
+    coeff_ent: 0.1
+  pgexplainer:
+    epochs: 40
+    lr: 0.005

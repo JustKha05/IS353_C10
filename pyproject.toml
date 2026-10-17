@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sna_g09"
+version = "0.1.0"
+description = "Social Network Analysis - Group 09 - Topic C.10: Making Graph Machine Learning Models Explainable"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Nguyen Hai Thien", email = "23521481@gm.uit.edu.vn" },
+    { name = "Nguyen Trong Khoi", email = "23520783@gm.uit.edu.vn" },
+    { name = "Nguyen Le Bao Dang", email = "23520230@gm.uit.edu.vn" },
+    { name = "Nguyen Truong Vu", email = "23521812@gm.uit.edu.vn" },
+    { name = "Vong Viet Duc", email = "23520324@gm.uit.edu.vn" },
+    { name = "Nguyen Hoang Kha", email = "23520667@gm.uit.edu.vn" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
