@@ -103,6 +103,116 @@ def run_test():
             assert b_st == "success"
             print(f"  -> Baseline {b_name:15s} OK | Runtime: {b_rt:.4f}s")
 
+    # 7. Kiểm thử trường hợp biên: Node có đúng 1 cạnh ứng viên (Degree-1 / Leaf node)
+    print("\n[5/5] Đang kiểm tra trường hợp biên (Node có 1 cạnh ứng viên - Cora node 3)...")
+    cora_data, cora_pred, _ = sna.load_dataset('cora')
+    cora_model, _, _ = sna.load_gcn_checkpoint('cora')
+    cora_model = cora_model.to(device)
+    cand_deg1 = sna.extract_candidate_edges(cora_data['edge_index'], 3, num_hops=2)
+    assert cand_deg1.num_candidate_edges == 1
+    edge_ids, scores_deg1, _, st_deg1, err_deg1 = sna.explain_edges(
+        model=cora_model,
+        data=cora_data,
+        node_id=3,
+        target_class=int(cora_pred[3]),
+        candidate_edges=cand_deg1,
+        config={'method': 'pgexplainer', 'epochs': 5},
+        seed=0
+    )
+    assert st_deg1 == "success", f"Degree-1 node failed: {err_deg1}"
+    assert len(scores_deg1) == 1, f"Expected 1 score, got {len(scores_deg1)}"
+    print(f"  -> Degree-1 Node OK | Score: {scores_deg1[0]:.4f}")
+
+    # 8. Kiểm thử mở rộng (Reviewer 2 & 3 Adversarial Edge Cases):
+    print("\n[6/6] Đang kiểm tra các trường hợp biên bổ sung (Adversarial Robustness)...")
+    import numpy as np
+    from sna.explainers.pgexplainer import PGExplainerMLP, PGExplainerModel
+    mlp_test = PGExplainerMLP(emb_dim=16)
+
+    # a) Target vector broadcasting: (N, D) + (N, D) + (D,)
+    u_2d = torch.randn(5, 16)
+    v_2d = torch.randn(5, 16)
+    t_1d = torch.randn(16)
+    out_broad = mlp_test(u_2d, v_2d, t_1d)
+    assert out_broad.shape == torch.Size([5]), f"Expected shape [5], got {out_broad.shape}"
+
+    # b) Target singleton 2D broadcasting: (N, D) + (N, D) + (1, D)
+    t_single = torch.randn(1, 16)
+    out_single = mlp_test(u_2d, v_2d, t_single)
+    assert out_single.shape == torch.Size([5]), f"Expected shape [5], got {out_single.shape}"
+
+    # c) Reviewer 3: Asymmetric broadcasting (N, D) + (1, D) or (D,) and (D,) + (N, D)
+    v_1d = torch.randn(16)
+    v_single = torch.randn(1, 16)
+    u_1d = torch.randn(16)
+    u_single = torch.randn(1, 16)
+    out_asym1 = mlp_test(u_2d, v_1d, t_1d)
+    assert out_asym1.shape == torch.Size([5]), f"Expected [5], got {out_asym1.shape}"
+    out_asym2 = mlp_test(u_2d, v_single, t_1d)
+    assert out_asym2.shape == torch.Size([5]), f"Expected [5], got {out_asym2.shape}"
+    out_asym3 = mlp_test(u_1d, v_2d, t_1d)
+    assert out_asym3.shape == torch.Size([5]), f"Expected [5], got {out_asym3.shape}"
+    out_asym4 = mlp_test(u_single, v_2d, t_1d)
+    assert out_asym4.shape == torch.Size([5]), f"Expected [5], got {out_asym4.shape}"
+    out_asym5 = mlp_test(u_single, v_1d, t_1d)
+    assert out_asym5.shape == torch.Size([1]), f"Expected [1], got {out_asym5.shape}"
+
+    # d) Reviewer 3: Pre-concatenated 1D and 2D single / batch inputs
+    cat_1d = torch.randn(48)
+    assert mlp_test(cat_1d).shape == torch.Size([1])
+    cat_empty = torch.randn(0, 48)
+    assert mlp_test(cat_empty).shape == torch.Size([0])
+
+    # e) Auto-detection của emb_dim trong PGExplainerModel (c1 & conv1)
+    auto_pge = PGExplainerModel(model=cora_model)
+    assert auto_pge.emb_dim == cora_model.c1.out_channels, f"Expected {cora_model.c1.out_channels}, got {auto_pge.emb_dim}"
+
+    class CustomConv1Model(torch.nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.conv1 = torch.nn.Linear(16, 32)
+            self.conv1.out_channels = 32
+        def forward(self, x, edge_index):
+            return self.conv1(x)
+
+    custom_model = CustomConv1Model()
+    conv1_pge = PGExplainerModel(model=custom_model)
+    assert conv1_pge.emb_dim == 32
+
+    # f) Train mask dạng PyTorch tensor chỉ số nguyên (Integer index tensor)
+    synth_data = {
+        'x': torch.randn(10, 16),
+        'edge_index': torch.tensor([[0, 1, 2], [1, 2, 0]], dtype=torch.long),
+        'train_mask': torch.tensor([0, 2], dtype=torch.long)
+    }
+    synth_model = sna.models.gcn.GCN(16, 16, 2)
+    pge_synth = PGExplainerModel(synth_model)
+    synth_time = pge_synth.train_on_graph(synth_data, epochs=2)
+    assert pge_synth.is_trained
+    assert synth_time > 0
+
+    # g) Reviewer 3: Train mask dạng NumPy integer array (ngăn ngừa lỗi index corruption [1, 2] thay vì [0, 2])
+    synth_data_np = {
+        'x': torch.randn(10, 16),
+        'edge_index': torch.tensor([[0, 1, 2], [1, 2, 0]], dtype=torch.long),
+        'train_mask': np.array([0, 2])
+    }
+    pge_synth_np = PGExplainerModel(synth_model)
+    synth_time_np = pge_synth_np.train_on_graph(synth_data_np, epochs=2)
+    assert pge_synth_np.is_trained
+
+    # h) Reviewer 3: Đồ thị có Node cô lập vượt quá index max của edge_index (ngăn ngừa PyG k_hop_subgraph IndexError)
+    edge_index_small = torch.tensor([[0, 1], [1, 0]], dtype=torch.long)
+    isolated_cand = sna.extract_candidate_edges(edge_index_small, node_id=5)
+    assert isolated_cand.num_candidate_edges == 0
+    assert isolated_cand.subgraph_nodes.tolist() == [5]
+    assert isolated_cand.edge_to_pair_idx.device == edge_index_small.device
+
+    # i) Đồ thị rỗng không có cạnh (Empty edge_index)
+    empty_cand = sna.extract_candidate_edges(torch.empty((2, 0), dtype=torch.long), node_id=0)
+    assert empty_cand.num_candidate_edges == 0
+    print("  -> Tất cả các trường hợp biên bổ sung (Asym Broadcasting, Pre-concatenated, conv1, NumPy train_mask, Isolated node bounds, Empty graph) ĐỀU ĐẠT!")
+
     print("\n" + "=" * 50)
     print(">>> TẤT CẢ CÁC BÀI KIỂM THỬ EXPLAINERS ĐỀU THÀNH CÔNG! <<<")
     print("=" * 50)

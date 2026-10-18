@@ -11,6 +11,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+.agents/
 
 # ------------------------------------------------------------------------------
 # 2. Jupyter Notebook Checkpoints & Cache

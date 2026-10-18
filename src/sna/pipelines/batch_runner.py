@@ -34,8 +34,7 @@ def run_batch_explaining(
     pg_instance = None
     if any(m in ('pgexplainer', 'pge') for m in methods):
         from sna.explainers.pgexplainer import PGExplainerModel
-        print("Huấn luyện trước PGExplainer trên tập train_mask...")
-        pg_instance = PGExplainerModel(model=model, emb_dim=model.c1.out_channels, device=device)
+        pg_instance = PGExplainerModel(model=model, device=device)
         pg_instance.train_on_graph(data=data, epochs=40, lr=0.005, seed=seed)
         print("PGExplainer đã sẵn sàng!")
 
