@@ -16,7 +16,7 @@ sys.path.insert(0, str(ROOT / "src"))
 import sna
 
 
-def run_test():
+def test_explainers():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f"=== KIỂM THỬ EXPLAINERS TRÊN THIẾT BỊ: {device} ===")
 
@@ -219,4 +219,4 @@ def run_test():
 
 
 if __name__ == '__main__':
-    run_test()
+    test_explainers()

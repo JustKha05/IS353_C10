@@ -28,13 +28,14 @@ def load_dataset(
     if not ds_dir.exists():
         raise FileNotFoundError(f"Không tìm thấy thư mục dữ liệu: {ds_dir}")
 
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # Nạp data.pt
-    data = torch.load(ds_dir / "data.pt", weights_only=False)
+    data = torch.load(ds_dir / "data.pt", map_location=device, weights_only=False)
 
     # Nạp pred từ checkpoint nếu có
     ckpt_path = ds_dir / "gcn_ckpt.pt"
     if ckpt_path.exists():
-        ckpt = torch.load(ckpt_path, weights_only=False)
+        ckpt = torch.load(ckpt_path, map_location=device, weights_only=False)
         pred = ckpt.get("pred", None)
     else:
         pred = None

@@ -18,7 +18,8 @@ def load_gcn_checkpoint(
     if not ckpt_path.exists():
         raise FileNotFoundError(f"Không tìm thấy checkpoint: {ckpt_path}")
 
-    ck = torch.load(ckpt_path, weights_only=False)
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    ck = torch.load(ckpt_path, map_location=device, weights_only=False)
     model = GCN(
         in_dim=ck["in_dim"],
         hidden_dim=ck["hidden"],
