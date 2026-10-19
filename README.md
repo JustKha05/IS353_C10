@@ -1,20 +1,20 @@
 # GNN Explainability Benchmark & Analysis (SNA - UIT 2026)
 ## Nhóm 09 - Đề tài C.10: Making Graph Machine Learning Models Explainable
 
-**Giảng viên hướng dẫn:** TS. Trần Hùng Nghiệp (`nghiepth@uit.edu.vn`)  
+**Giảng viên hướng dẫn:** TS. Trần Hưng Nghiệp (`nghiepth@uit.edu.vn`)  
 **Nhóm sinh viên thực hiện (Nhóm 09):**
-- **Lâm Quốc Vũ** (23521820) - Nhóm trưởng / Điều phối chung (Coordinator)
-- **Nguyễn Lê Bảo Đăng** (23520241) - Phụ trách Phân nhóm 1 (T01: Chuẩn bị Dữ liệu & Mô hình GNN)
-- **Nguyễn Hải Thiện** (23521453) - Phụ trách Phân nhóm 2 (T02, T05: Thuật toán PGExplainer)
-- **Nguyễn Trọng Khôi** (23520783) - Phụ trách Phân nhóm 2 (T02, T05: Thuật toán Saliency & GNNExplainer)
-- **Phan Minh Đức** (23520361) - Phụ trách Phân nhóm 3 (T03, T06: Độ đo Đánh giá Fidelity & Agreement)
-- **Nguyễn Huỳnh Kha** (23520626) - Phụ trách Phân nhóm 3 (T04, T07: Phương pháp Baseline & Phân tích Đồ thị)
+- **Nguyễn Trường Vũ** (23521812) - Nhóm trưởng / Điều phối chung (Phân nhóm 1: T01, T04, T07)
+- **Nguyễn Lê Bảo Đăng** (23520230) - Phụ trách Phân nhóm 1 (T01: Chuẩn bị Dữ liệu & Mô hình GNN)
+- **Nguyễn Hải Thiện** (23521481) - Phụ trách Phân nhóm 2 (T02, T05, T08: Thuật toán PGExplainer)
+- **Nguyễn Trọng Khôi** (23520783) - Phụ trách Phân nhóm 2 (T02, T05, T08: Thuật toán Saliency & GNNExplainer)
+- **Vòng Việt Đức** (23520324) - Phụ trách Phân nhóm 3 (T03, T06, T09: Độ đo Đánh giá Fidelity & Agreement)
+- **Nguyễn Hoàng Kha** (23520667) - Phụ trách Phân nhóm 3 (T04, T07, T09: Phương pháp Baseline & Phân tích Đồ thị)
 
 ---
 
 ## 1. Lộ trình Nghiên cứu Tổng thể (8 Tuần & 8 Thí nghiệm)
 
-Đồ án được thiết kế theo 3 giai đoạn nghiên cứu bám sát đề cương và yêu cầu học thuật của TS. Trần Hùng Nghiệp:
+Đồ án được thiết kế theo 3 giai đoạn nghiên cứu bám sát đề cương và yêu cầu học thuật của TS. Trần Hưng Nghiệp:
 
 | Giai đoạn | Thời gian | Nhiệm vụ & Mục tiêu cốt lõi | Output chính |
 | :--- | :--- | :--- | :--- |

@@ -1,10 +1,10 @@
 # BẢNG SỐ LIỆU BÀN GIAO KẾT QUẢ ĐÁNH GIÁ GIỮA KỲ (MIDTERM) - GROUP 09
 
 > **Môn học:** Social Network Analysis (SNA) - UIT 2026  
-> **Giảng viên hướng dẫn:** TS. Trần Hùng Nghiệp  
+> **Giảng viên hướng dẫn:** TS. Trần Hưng Nghiệp  
 > **Đề tài:** C.10. Making Graph Machine Learning Models Explainable  
-> **Nhóm thực hiện:** Nhóm 09 (Nhóm 2: Nguyễn Trọng Khôi - 23520783 & Nguyễn Hải Thiện - 23521453)  
-> **Người nhận bàn giao:** Nhóm 3 (Phan Minh Đức, Nguyễn Huỳnh Kha) & Nhóm trưởng (Lâm Quốc Vũ)  
+> **Nhóm thực hiện:** Nhóm 09 (Nhóm 2: Nguyễn Trọng Khôi - 23520783 & Nguyễn Hải Thiện - 23521481)  
+> **Người nhận bàn giao:** Nhóm 3 (Vòng Việt Đức - 23520324, Nguyễn Hoàng Kha - 23520667) & Nhóm trưởng (Nguyễn Trường Vũ - 23521812)  
 > **Ngày cập nhật:** 19/10/2026  
 > **Tình trạng:** Đồng bộ 100% Checkpoint GCN (93.57%), hoàn tất 12,528 dòng điểm giải thích trên 40 validation nodes.
 
