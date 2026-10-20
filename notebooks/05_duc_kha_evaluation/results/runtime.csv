@@ -1,0 +1,521 @@
+dataset,node_id,method,score_runtime_sec,status,reason,repeat_seed,ranking_runtime_sec
+bashapes,692,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,692,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,692,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,692,random,4.599998646881431e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00016519999917363748
+bashapes,692,random,4.599998646881431e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00021019999985583127
+bashapes,692,random,4.599998646881431e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00019269999756943434
+bashapes,692,random,4.599998646881431e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.0001945000039995648
+bashapes,692,random,4.599998646881431e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.0002158999996026978
+bashapes,692,nearest_first,2.2000000171829015e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.0001714999962132424
+bashapes,692,nearest_first,2.2000000171829015e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00016340000001946464
+bashapes,692,nearest_first,2.2000000171829015e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00017810000281315297
+bashapes,692,nearest_first,2.2000000171829015e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00017470000602770597
+bashapes,692,nearest_first,2.2000000171829015e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00019420000171521679
+bashapes,697,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,697,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,697,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,697,random,3.5999983083456755e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00014139999984763563
+bashapes,697,random,3.5999983083456755e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00013780000153928995
+bashapes,697,random,3.5999983083456755e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00016319999849656597
+bashapes,697,random,3.5999983083456755e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00015500000154133886
+bashapes,697,random,3.5999983083456755e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.0001368000012007542
+bashapes,697,nearest_first,2.3699998564552516e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00013729999773204327
+bashapes,697,nearest_first,2.3699998564552516e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.0001340000017080456
+bashapes,697,nearest_first,2.3699998564552516e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00014620000001741573
+bashapes,697,nearest_first,2.3699998564552516e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00016769999638199806
+bashapes,697,nearest_first,2.3699998564552516e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00014799999917158857
+bashapes,443,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,443,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,443,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,443,random,6.599999323952943e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00019040000188397244
+bashapes,443,random,6.599999323952943e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00019720000273082405
+bashapes,443,random,6.599999323952943e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00018840000120690092
+bashapes,443,random,6.599999323952943e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00015330000314861536
+bashapes,443,random,6.599999323952943e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.0001951000012923032
+bashapes,443,nearest_first,2.4599998141638935e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00017780000052880496
+bashapes,443,nearest_first,2.4599998141638935e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00017279999883612618
+bashapes,443,nearest_first,2.4599998141638935e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00016109999705804512
+bashapes,443,nearest_first,2.4599998141638935e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00020840000070165843
+bashapes,443,nearest_first,2.4599998141638935e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0001982000030693598
+bashapes,650,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,650,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,650,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,650,random,3.9000005926936865e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00013980000221636146
+bashapes,650,random,3.9000005926936865e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00016090000281110406
+bashapes,650,random,3.9000005926936865e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00015020000137155876
+bashapes,650,random,3.9000005926936865e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00014390000433195382
+bashapes,650,random,3.9000005926936865e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00013760000001639128
+bashapes,650,nearest_first,2.920000406447798e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00012199999764561653
+bashapes,650,nearest_first,2.920000406447798e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00017830000433605164
+bashapes,650,nearest_first,2.920000406447798e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00013899999612476677
+bashapes,650,nearest_first,2.920000406447798e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00014630000077886507
+bashapes,650,nearest_first,2.920000406447798e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00014039999950909987
+bashapes,263,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,263,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,263,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,263,random,3.4000040614046156e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.0001253000009455718
+bashapes,263,random,3.4000040614046156e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00015810000331839547
+bashapes,263,random,3.4000040614046156e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.0001447000031475909
+bashapes,263,random,3.4000040614046156e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00014830000145593658
+bashapes,263,random,3.4000040614046156e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00016599999798927456
+bashapes,263,nearest_first,0.00020509999740170315,measured,CPU baseline scoring; excludes fidelity,0.0,0.00014150000060908496
+bashapes,263,nearest_first,0.00020509999740170315,measured,CPU baseline scoring; excludes fidelity,1.0,0.00015600000187987462
+bashapes,263,nearest_first,0.00020509999740170315,measured,CPU baseline scoring; excludes fidelity,2.0,0.00016110000433400273
+bashapes,263,nearest_first,0.00020509999740170315,measured,CPU baseline scoring; excludes fidelity,3.0,0.0001415999940945767
+bashapes,263,nearest_first,0.00020509999740170315,measured,CPU baseline scoring; excludes fidelity,4.0,0.00013579999358626083
+bashapes,374,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,374,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,374,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,374,random,5.700007022824138e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00022120000357972458
+bashapes,374,random,5.700007022824138e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00016170000162674114
+bashapes,374,random,5.700007022824138e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00018460000137565657
+bashapes,374,random,5.700007022824138e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.0001720000000204891
+bashapes,374,random,5.700007022824138e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00019780000002356246
+bashapes,374,nearest_first,2.769999991869554e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00019069999689236283
+bashapes,374,nearest_first,2.769999991869554e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00019320000137668103
+bashapes,374,nearest_first,2.769999991869554e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00020249999943189323
+bashapes,374,nearest_first,2.769999991869554e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003265999985160306
+bashapes,374,nearest_first,2.769999991869554e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00019180000526830554
+bashapes,74,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,74,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,74,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,74,random,5.100002454128116e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00018459999409969896
+bashapes,74,random,5.100002454128116e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00019120000069960952
+bashapes,74,random,5.100002454128116e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00014480000390904024
+bashapes,74,random,5.100002454128116e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00021220000053290278
+bashapes,74,random,5.100002454128116e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00022989999706624076
+bashapes,74,nearest_first,0.00030059999699005857,measured,CPU baseline scoring; excludes fidelity,0.0,0.00023239999427460134
+bashapes,74,nearest_first,0.00030059999699005857,measured,CPU baseline scoring; excludes fidelity,1.0,0.00018770000315271318
+bashapes,74,nearest_first,0.00030059999699005857,measured,CPU baseline scoring; excludes fidelity,2.0,0.00024589999520685524
+bashapes,74,nearest_first,0.00030059999699005857,measured,CPU baseline scoring; excludes fidelity,3.0,0.0002238000015495345
+bashapes,74,nearest_first,0.00030059999699005857,measured,CPU baseline scoring; excludes fidelity,4.0,0.00020480000239331275
+bashapes,259,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,259,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,259,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,259,random,5.30000397702679e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00018230000569019467
+bashapes,259,random,5.30000397702679e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.0001982000030693598
+bashapes,259,random,5.30000397702679e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00018460000137565657
+bashapes,259,random,5.30000397702679e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00015870000061113387
+bashapes,259,random,5.30000397702679e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00021220000053290278
+bashapes,259,nearest_first,0.0001728000061120838,measured,CPU baseline scoring; excludes fidelity,0.0,0.00020899999799439684
+bashapes,259,nearest_first,0.0001728000061120838,measured,CPU baseline scoring; excludes fidelity,1.0,0.0001753999968059361
+bashapes,259,nearest_first,0.0001728000061120838,measured,CPU baseline scoring; excludes fidelity,2.0,0.00021189999824855477
+bashapes,259,nearest_first,0.0001728000061120838,measured,CPU baseline scoring; excludes fidelity,3.0,0.00019379999866941944
+bashapes,259,nearest_first,0.0001728000061120838,measured,CPU baseline scoring; excludes fidelity,4.0,0.00020250000670785084
+bashapes,559,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,559,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,559,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,559,random,3.1999952625483274e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00013310000213095918
+bashapes,559,random,3.1999952625483274e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00013520000356948003
+bashapes,559,random,3.1999952625483274e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00014419999934034422
+bashapes,559,random,3.1999952625483274e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.0001281000004382804
+bashapes,559,random,3.1999952625483274e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00013169999874662608
+bashapes,559,nearest_first,2.5499997718725353e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.000174299995705951
+bashapes,559,nearest_first,2.5499997718725353e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00016320000577252358
+bashapes,559,nearest_first,2.5499997718725353e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0001432999997632578
+bashapes,559,nearest_first,2.5499997718725353e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00013549999857787043
+bashapes,559,nearest_first,2.5499997718725353e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00010529999417485669
+bashapes,337,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,337,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,337,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,337,random,4.3000036384910345e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00016789999790489674
+bashapes,337,random,4.3000036384910345e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00013770000077784061
+bashapes,337,random,4.3000036384910345e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00016770000365795568
+bashapes,337,random,4.3000036384910345e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00016080000204965472
+bashapes,337,random,4.3000036384910345e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.0001418999963789247
+bashapes,337,nearest_first,2.7599999157246202e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00014099999680183828
+bashapes,337,nearest_first,2.7599999157246202e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00014290000399341807
+bashapes,337,nearest_first,2.7599999157246202e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00012489999789977446
+bashapes,337,nearest_first,2.7599999157246202e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00014350000128615648
+bashapes,337,nearest_first,2.7599999157246202e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00014169999485602602
+bashapes,112,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,112,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,112,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,112,random,5.599998985417187e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00020110000332351774
+bashapes,112,random,5.599998985417187e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00019980000070063397
+bashapes,112,random,5.599998985417187e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.0002342000007047318
+bashapes,112,random,5.599998985417187e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.0002131000001099892
+bashapes,112,random,5.599998985417187e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00021580000611720607
+bashapes,112,nearest_first,0.0002986000035889447,measured,CPU baseline scoring; excludes fidelity,0.0,0.00023220000002766028
+bashapes,112,nearest_first,0.0002986000035889447,measured,CPU baseline scoring; excludes fidelity,1.0,0.0002445999998599291
+bashapes,112,nearest_first,0.0002986000035889447,measured,CPU baseline scoring; excludes fidelity,2.0,0.00032780000037746504
+bashapes,112,nearest_first,0.0002986000035889447,measured,CPU baseline scoring; excludes fidelity,3.0,0.00023100000544218346
+bashapes,112,nearest_first,0.0002986000035889447,measured,CPU baseline scoring; excludes fidelity,4.0,0.00023139999393606558
+bashapes,595,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,595,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,595,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,595,random,4.099994839634746e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00014180000289343297
+bashapes,595,random,4.099994839634746e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00018529999942984432
+bashapes,595,random,4.099994839634746e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.0001740000006975606
+bashapes,595,random,4.099994839634746e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.0001506000044173561
+bashapes,595,random,4.099994839634746e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00016549999418202788
+bashapes,595,nearest_first,2.4900000425986946e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00016589999722782522
+bashapes,595,nearest_first,2.4900000425986946e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00014569999621016905
+bashapes,595,nearest_first,2.4900000425986946e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00020249999943189323
+bashapes,595,nearest_first,2.4900000425986946e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00015600000187987462
+bashapes,595,nearest_first,2.4900000425986946e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00017270000535063446
+bashapes,408,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,408,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,408,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,408,random,3.2999960239976645e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00013160000526113436
+bashapes,408,random,3.2999960239976645e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00014419999934034422
+bashapes,408,random,3.2999960239976645e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.0001368000012007542
+bashapes,408,random,3.2999960239976645e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.0001430000047548674
+bashapes,408,random,3.2999960239976645e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00020899999799439684
+bashapes,408,nearest_first,2.5399996957276016e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.0001624000069568865
+bashapes,408,nearest_first,2.5399996957276016e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.0001931000006152317
+bashapes,408,nearest_first,2.5399996957276016e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00017179999849759042
+bashapes,408,nearest_first,2.5399996957276016e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0002604000037536025
+bashapes,408,nearest_first,2.5399996957276016e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00016060000052675605
+bashapes,556,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,556,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,556,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,556,random,5.299996701069176e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.0003977999949711375
+bashapes,556,random,5.299996701069176e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00013300000136950985
+bashapes,556,random,5.299996701069176e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00015140000323299319
+bashapes,556,random,5.299996701069176e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00013760000001639128
+bashapes,556,random,5.299996701069176e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00022119999630376697
+bashapes,556,nearest_first,2.4299995857290924e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.0001587999940966256
+bashapes,556,nearest_first,2.4299995857290924e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00012489999789977446
+bashapes,556,nearest_first,2.4299995857290924e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00013279999984661117
+bashapes,556,nearest_first,2.4299995857290924e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00011590000212891027
+bashapes,556,nearest_first,2.4299995857290924e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00013210000179242343
+bashapes,22,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,22,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,22,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,22,random,8.200004231184721e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.0002482999989297241
+bashapes,22,random,8.200004231184721e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00021299999934853986
+bashapes,22,random,8.200004231184721e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.000221800000872463
+bashapes,22,random,8.200004231184721e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00021179999748710543
+bashapes,22,random,8.200004231184721e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00018010000349022448
+bashapes,22,nearest_first,0.00045820000377716497,measured,CPU baseline scoring; excludes fidelity,0.0,0.0002457999944454059
+bashapes,22,nearest_first,0.00045820000377716497,measured,CPU baseline scoring; excludes fidelity,1.0,0.00022489999537356198
+bashapes,22,nearest_first,0.00045820000377716497,measured,CPU baseline scoring; excludes fidelity,2.0,0.0002114000017172657
+bashapes,22,nearest_first,0.00045820000377716497,measured,CPU baseline scoring; excludes fidelity,3.0,0.00022840000019641593
+bashapes,22,nearest_first,0.00045820000377716497,measured,CPU baseline scoring; excludes fidelity,4.0,0.00023070000315783545
+bashapes,51,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,51,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,51,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,51,random,4.599998646881431e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00018209999689133838
+bashapes,51,random,4.599998646881431e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00015279999934136868
+bashapes,51,random,4.599998646881431e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00018519999866839498
+bashapes,51,random,4.599998646881431e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.0001323000033153221
+bashapes,51,random,4.599998646881431e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00015300000086426735
+bashapes,51,nearest_first,0.00036049999471288174,measured,CPU baseline scoring; excludes fidelity,0.0,0.00018849999469239265
+bashapes,51,nearest_first,0.00036049999471288174,measured,CPU baseline scoring; excludes fidelity,1.0,0.00017469999875174835
+bashapes,51,nearest_first,0.00036049999471288174,measured,CPU baseline scoring; excludes fidelity,2.0,0.0001807000007829629
+bashapes,51,nearest_first,0.00036049999471288174,measured,CPU baseline scoring; excludes fidelity,3.0,0.0001871999993454665
+bashapes,51,nearest_first,0.00036049999471288174,measured,CPU baseline scoring; excludes fidelity,4.0,0.00017040000238921493
+bashapes,611,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,611,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,611,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,611,random,5.800000508315861e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00017929999739862978
+bashapes,611,random,5.800000508315861e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00014549999468727037
+bashapes,611,random,5.800000508315861e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00014930000179447234
+bashapes,611,random,5.800000508315861e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.0001382000045850873
+bashapes,611,random,5.800000508315861e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00015700000221841037
+bashapes,611,nearest_first,1.900000643217936e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00011889999586855993
+bashapes,611,nearest_first,1.900000643217936e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00019460000476101413
+bashapes,611,nearest_first,1.900000643217936e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00012720000086119398
+bashapes,611,nearest_first,1.900000643217936e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00012520000018412247
+bashapes,611,nearest_first,1.900000643217936e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00014039999950909987
+bashapes,529,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,529,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,529,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,529,random,3.4999975468963385e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00013350000517675653
+bashapes,529,random,3.4999975468963385e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00014899999951012433
+bashapes,529,random,3.4999975468963385e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00014749999536434188
+bashapes,529,random,3.4999975468963385e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00012239999341545627
+bashapes,529,random,3.4999975468963385e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00013729999773204327
+bashapes,529,nearest_first,2.179999864893034e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00012840000272262841
+bashapes,529,nearest_first,2.179999864893034e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.0001412999990861863
+bashapes,529,nearest_first,2.179999864893034e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00011660000018309802
+bashapes,529,nearest_first,2.179999864893034e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00013059999764664099
+bashapes,529,nearest_first,2.179999864893034e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00011620000441325828
+bashapes,242,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,242,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,242,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,242,random,4.699999408330768e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.0001542999962111935
+bashapes,242,random,4.699999408330768e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00019640000391518697
+bashapes,242,random,4.699999408330768e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.00015970000094966963
+bashapes,242,random,4.699999408330768e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00018080000154441223
+bashapes,242,random,4.699999408330768e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00018029999773716554
+bashapes,242,nearest_first,0.00013380000018514693,measured,CPU baseline scoring; excludes fidelity,0.0,0.0002660000027390197
+bashapes,242,nearest_first,0.00013380000018514693,measured,CPU baseline scoring; excludes fidelity,1.0,0.0001940000001923181
+bashapes,242,nearest_first,0.00013380000018514693,measured,CPU baseline scoring; excludes fidelity,2.0,0.00018969999655382708
+bashapes,242,nearest_first,0.00013380000018514693,measured,CPU baseline scoring; excludes fidelity,3.0,0.00019020000036107376
+bashapes,242,nearest_first,0.00013380000018514693,measured,CPU baseline scoring; excludes fidelity,4.0,0.00017389999993611127
+bashapes,182,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,182,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,182,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+bashapes,182,random,7.399998139590025e-06,measured,CPU baseline scoring; excludes fidelity,0.0,0.00024389999452978373
+bashapes,182,random,7.399998139590025e-06,measured,CPU baseline scoring; excludes fidelity,1.0,0.00020729999960167333
+bashapes,182,random,7.399998139590025e-06,measured,CPU baseline scoring; excludes fidelity,2.0,0.0002032000047620386
+bashapes,182,random,7.399998139590025e-06,measured,CPU baseline scoring; excludes fidelity,3.0,0.00019640000391518697
+bashapes,182,random,7.399998139590025e-06,measured,CPU baseline scoring; excludes fidelity,4.0,0.00018709999858401716
+bashapes,182,nearest_first,0.00015100000018719584,measured,CPU baseline scoring; excludes fidelity,0.0,0.00017020000086631626
+bashapes,182,nearest_first,0.00015100000018719584,measured,CPU baseline scoring; excludes fidelity,1.0,0.00016850000247359276
+bashapes,182,nearest_first,0.00015100000018719584,measured,CPU baseline scoring; excludes fidelity,2.0,0.0001936999979079701
+bashapes,182,nearest_first,0.00015100000018719584,measured,CPU baseline scoring; excludes fidelity,3.0,0.00021739999647252262
+bashapes,182,nearest_first,0.00015100000018719584,measured,CPU baseline scoring; excludes fidelity,4.0,0.000302100001135841
+cora,282,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,282,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,282,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,282,random,1.3899996702093631e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.0002508000034140423
+cora,282,random,1.3899996702093631e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00023739999596728012
+cora,282,random,1.3899996702093631e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0002421000026515685
+cora,282,random,1.3899996702093631e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00018989999807672575
+cora,282,random,1.3899996702093631e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0002663999985088594
+cora,282,nearest_first,4.340000305091962e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00020500000391621143
+cora,282,nearest_first,4.340000305091962e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.0002668000015546568
+cora,282,nearest_first,4.340000305091962e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00021299999934853986
+cora,282,nearest_first,4.340000305091962e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00022280000121099874
+cora,282,nearest_first,4.340000305091962e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00021840000408701599
+cora,359,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,359,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,359,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,359,random,1.4500001270789653e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00024000000121304765
+cora,359,random,1.4500001270789653e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00024109999503707513
+cora,359,random,1.4500001270789653e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00024229999689850956
+cora,359,random,1.4500001270789653e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003228999994462356
+cora,359,random,1.4500001270789653e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00021279999782564119
+cora,359,nearest_first,9.820000559557229e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00025070000265259296
+cora,359,nearest_first,9.820000559557229e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00023540000256616622
+cora,359,nearest_first,9.820000559557229e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00020360000053187832
+cora,359,nearest_first,9.820000559557229e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0002461000040057115
+cora,359,nearest_first,9.820000559557229e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00022670000180369243
+cora,189,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,189,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,189,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,189,random,1.7300000763498247e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00029599999834317714
+cora,189,random,1.7300000763498247e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.000258700005360879
+cora,189,random,1.7300000763498247e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00024729999859118834
+cora,189,random,1.7300000763498247e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00025779999850783497
+cora,189,random,1.7300000763498247e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00021910000214120373
+cora,189,nearest_first,0.00010099999781232327,measured,CPU baseline scoring; excludes fidelity,0.0,0.0002330999996047467
+cora,189,nearest_first,0.00010099999781232327,measured,CPU baseline scoring; excludes fidelity,1.0,0.00024649999977555126
+cora,189,nearest_first,0.00010099999781232327,measured,CPU baseline scoring; excludes fidelity,2.0,0.000229199999012053
+cora,189,nearest_first,0.00010099999781232327,measured,CPU baseline scoring; excludes fidelity,3.0,0.00032500000088475645
+cora,189,nearest_first,0.00010099999781232327,measured,CPU baseline scoring; excludes fidelity,4.0,0.00026419999630888924
+cora,478,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,478,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,478,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,478,random,1.3199998647905886e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00022639999951934442
+cora,478,random,1.3199998647905886e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00023990000045159832
+cora,478,random,1.3199998647905886e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00029850000282749534
+cora,478,random,1.3199998647905886e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00026419999630888924
+cora,478,random,1.3199998647905886e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0002212999970652163
+cora,478,nearest_first,6.349999603116885e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00023119999968912452
+cora,478,nearest_first,6.349999603116885e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00022560000070370734
+cora,478,nearest_first,6.349999603116885e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00021800000104121864
+cora,478,nearest_first,6.349999603116885e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0002466000005370006
+cora,478,nearest_first,6.349999603116885e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.000228899996727705
+cora,528,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,528,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,528,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,528,random,1.7099999240599573e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00031319999834522605
+cora,528,random,1.7099999240599573e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00026169999910052866
+cora,528,random,1.7099999240599573e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0002810000005410984
+cora,528,random,1.7099999240599573e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0002777999980025925
+cora,528,random,1.7099999240599573e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0003375000014784746
+cora,528,nearest_first,4.640000406652689e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00028190000011818483
+cora,528,nearest_first,4.640000406652689e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00028110000130254775
+cora,528,nearest_first,4.640000406652689e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00026480000087758526
+cora,528,nearest_first,4.640000406652689e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0002843999973265454
+cora,528,nearest_first,4.640000406652689e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0002759000053629279
+cora,151,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,151,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,151,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,151,random,1.4400000509340316e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00026870000147027895
+cora,151,random,1.4400000509340316e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00030359999800566584
+cora,151,random,1.4400000509340316e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00026980000257026404
+cora,151,random,1.4400000509340316e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0002783999952953309
+cora,151,random,1.4400000509340316e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0002673999988473952
+cora,151,nearest_first,0.00024389999452978373,measured,CPU baseline scoring; excludes fidelity,0.0,0.00030870000045979396
+cora,151,nearest_first,0.00024389999452978373,measured,CPU baseline scoring; excludes fidelity,1.0,0.00045849999878555536
+cora,151,nearest_first,0.00024389999452978373,measured,CPU baseline scoring; excludes fidelity,2.0,0.00037009999505244195
+cora,151,nearest_first,0.00024389999452978373,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003084999989368953
+cora,151,nearest_first,0.00024389999452978373,measured,CPU baseline scoring; excludes fidelity,4.0,0.00038719999429304153
+cora,233,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,233,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,233,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,233,random,2.680000034160912e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.0005228000009083189
+cora,233,random,2.680000034160912e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00044689999776892364
+cora,233,random,2.680000034160912e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00048580000293441117
+cora,233,random,2.680000034160912e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.000562999994144775
+cora,233,random,2.680000034160912e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0005273999995552003
+cora,233,nearest_first,7.819999882485718e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00045810000301571563
+cora,233,nearest_first,7.819999882485718e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.0004985999985365197
+cora,233,nearest_first,7.819999882485718e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00048070000048028305
+cora,233,nearest_first,7.819999882485718e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0006514999986393377
+cora,233,nearest_first,7.819999882485718e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0003712999969138764
+cora,383,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,383,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,383,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,383,random,2.130000211764127e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.0003584000005503185
+cora,383,random,2.130000211764127e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00036859999818261713
+cora,383,random,2.130000211764127e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.000433300003351178
+cora,383,random,2.130000211764127e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003954999992856756
+cora,383,random,2.130000211764127e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0004270999997970648
+cora,383,nearest_first,0.0001799000019673258,measured,CPU baseline scoring; excludes fidelity,0.0,0.0003639999995357357
+cora,383,nearest_first,0.0001799000019673258,measured,CPU baseline scoring; excludes fidelity,1.0,0.0004186000005574897
+cora,383,nearest_first,0.0001799000019673258,measured,CPU baseline scoring; excludes fidelity,2.0,0.0004310000003897585
+cora,383,nearest_first,0.0001799000019673258,measured,CPU baseline scoring; excludes fidelity,3.0,0.0004578000007313676
+cora,383,nearest_first,0.0001799000019673258,measured,CPU baseline scoring; excludes fidelity,4.0,0.00047510000149486586
+cora,213,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,213,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,213,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,213,random,2.099999983329326e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.000385600003937725
+cora,213,random,2.099999983329326e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00041739999869605526
+cora,213,random,2.099999983329326e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00043290000030538067
+cora,213,random,2.099999983329326e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00044329999946057796
+cora,213,random,2.099999983329326e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0004335999983595684
+cora,213,nearest_first,0.00011250000534346327,measured,CPU baseline scoring; excludes fidelity,0.0,0.0004019999978481792
+cora,213,nearest_first,0.00011250000534346327,measured,CPU baseline scoring; excludes fidelity,1.0,0.0004284999959054403
+cora,213,nearest_first,0.00011250000534346327,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003958000015700236
+cora,213,nearest_first,0.00011250000534346327,measured,CPU baseline scoring; excludes fidelity,3.0,0.0004337999998824671
+cora,213,nearest_first,0.00011250000534346327,measured,CPU baseline scoring; excludes fidelity,4.0,0.00045819999650120735
+cora,447,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,447,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,447,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,447,random,2.1400002879090607e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00038299999869195744
+cora,447,random,2.1400002879090607e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00038359999598469585
+cora,447,random,2.1400002879090607e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0004141000026720576
+cora,447,random,2.1400002879090607e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003862000012304634
+cora,447,random,2.1400002879090607e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00038950000453041866
+cora,447,nearest_first,9.790000331122428e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.0003400999994482845
+cora,447,nearest_first,9.790000331122428e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00033209999673999846
+cora,447,nearest_first,9.790000331122428e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003469000002951361
+cora,447,nearest_first,9.790000331122428e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003270999950473197
+cora,447,nearest_first,9.790000331122428e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0004006999952252954
+cora,429,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,429,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,429,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,429,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00038050000148359686
+cora,429,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00041969999438151717
+cora,429,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003367000026628375
+cora,429,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00037459999293787405
+cora,429,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0005994999955873936
+cora,429,nearest_first,0.000240400004258845,measured,CPU baseline scoring; excludes fidelity,0.0,0.0003817000033450313
+cora,429,nearest_first,0.000240400004258845,measured,CPU baseline scoring; excludes fidelity,1.0,0.00039739999920129776
+cora,429,nearest_first,0.000240400004258845,measured,CPU baseline scoring; excludes fidelity,2.0,0.0004589000018313527
+cora,429,nearest_first,0.000240400004258845,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003265999985160306
+cora,429,nearest_first,0.000240400004258845,measured,CPU baseline scoring; excludes fidelity,4.0,0.00038530000165337697
+cora,374,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,374,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,374,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,374,random,2.0600004063453525e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00034440000308677554
+cora,374,random,2.0600004063453525e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00035200000274926424
+cora,374,random,2.0600004063453525e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.000352399998519104
+cora,374,random,2.0600004063453525e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00035819999902741984
+cora,374,random,2.0600004063453525e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0003559000033419579
+cora,374,nearest_first,0.00010779999865917489,measured,CPU baseline scoring; excludes fidelity,0.0,0.00041110000165645033
+cora,374,nearest_first,0.00010779999865917489,measured,CPU baseline scoring; excludes fidelity,1.0,0.0004225000011501834
+cora,374,nearest_first,0.00010779999865917489,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003749000024981797
+cora,374,nearest_first,0.00010779999865917489,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003767000016523525
+cora,374,nearest_first,0.00010779999865917489,measured,CPU baseline scoring; excludes fidelity,4.0,0.0003741000036825426
+cora,296,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,296,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,296,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,296,random,1.9700004486367106e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.0003414000020711683
+cora,296,random,1.9700004486367106e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00035179999395040795
+cora,296,random,1.9700004486367106e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00037429999792948365
+cora,296,random,1.9700004486367106e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00031989999843062833
+cora,296,random,1.9700004486367106e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0003887999992002733
+cora,296,nearest_first,0.00010959999781334773,measured,CPU baseline scoring; excludes fidelity,0.0,0.0003453999961493537
+cora,296,nearest_first,0.00010959999781334773,measured,CPU baseline scoring; excludes fidelity,1.0,0.0003832000002148561
+cora,296,nearest_first,0.00010959999781334773,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003986000010627322
+cora,296,nearest_first,0.00010959999781334773,measured,CPU baseline scoring; excludes fidelity,3.0,0.00034980000054929405
+cora,296,nearest_first,0.00010959999781334773,measured,CPU baseline scoring; excludes fidelity,4.0,0.00031350000062957406
+cora,619,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,619,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,619,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,619,random,1.8999999156221747e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.000334700001985766
+cora,619,random,1.8999999156221747e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00034920000325655565
+cora,619,random,1.8999999156221747e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003538000019034371
+cora,619,random,1.8999999156221747e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00035909999860450625
+cora,619,random,1.8999999156221747e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0003508000008878298
+cora,619,nearest_first,0.0001227000029757619,measured,CPU baseline scoring; excludes fidelity,0.0,0.0003180999992764555
+cora,619,nearest_first,0.0001227000029757619,measured,CPU baseline scoring; excludes fidelity,1.0,0.00034530000266386196
+cora,619,nearest_first,0.0001227000029757619,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003687999997055158
+cora,619,nearest_first,0.0001227000029757619,measured,CPU baseline scoring; excludes fidelity,3.0,0.000305800000205636
+cora,619,nearest_first,0.0001227000029757619,measured,CPU baseline scoring; excludes fidelity,4.0,0.0003073999978369102
+cora,255,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,255,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,255,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,255,random,1.8200000340584666e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00032809999538585544
+cora,255,random,1.8200000340584666e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.0003426999974180944
+cora,255,random,1.8200000340584666e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.000342100000125356
+cora,255,random,1.8200000340584666e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003414000020711683
+cora,255,random,1.8200000340584666e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00030279999919002876
+cora,255,nearest_first,0.00011269999959040433,measured,CPU baseline scoring; excludes fidelity,0.0,0.0002906000008806586
+cora,255,nearest_first,0.00011269999959040433,measured,CPU baseline scoring; excludes fidelity,1.0,0.00034730000334093347
+cora,255,nearest_first,0.00011269999959040433,measured,CPU baseline scoring; excludes fidelity,2.0,0.00037600000359816477
+cora,255,nearest_first,0.00011269999959040433,measured,CPU baseline scoring; excludes fidelity,3.0,0.00033460000122431666
+cora,255,nearest_first,0.00011269999959040433,measured,CPU baseline scoring; excludes fidelity,4.0,0.00033819999953266233
+cora,628,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,628,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,628,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,628,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00034270000469405204
+cora,628,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00033660000190138817
+cora,628,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00034949999826494604
+cora,628,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00036389999877428636
+cora,628,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00031229999876813963
+cora,628,nearest_first,0.0001843999998527579,measured,CPU baseline scoring; excludes fidelity,0.0,0.0003240000005462207
+cora,628,nearest_first,0.0001843999998527579,measured,CPU baseline scoring; excludes fidelity,1.0,0.00035269999352749437
+cora,628,nearest_first,0.0001843999998527579,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003224000029149465
+cora,628,nearest_first,0.0001843999998527579,measured,CPU baseline scoring; excludes fidelity,3.0,0.00035149999894201756
+cora,628,nearest_first,0.0001843999998527579,measured,CPU baseline scoring; excludes fidelity,4.0,0.00037059999885968864
+cora,493,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,493,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,493,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,493,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00035000000207219273
+cora,493,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.0003513999981805682
+cora,493,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003637000045273453
+cora,493,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003532999980961904
+cora,493,random,2.1100000594742596e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00030329999572131783
+cora,493,nearest_first,7.750000077066943e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00031739999394631013
+cora,493,nearest_first,7.750000077066943e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.0003359000038472004
+cora,493,nearest_first,7.750000077066943e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003386000025784597
+cora,493,nearest_first,7.750000077066943e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003484999979264103
+cora,493,nearest_first,7.750000077066943e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00033409999741706997
+cora,291,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,291,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,291,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,291,random,1.8500002624932677e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00028529999690363184
+cora,291,random,1.8500002624932677e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.0003493999975034967
+cora,291,random,1.8500002624932677e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003389000048628077
+cora,291,random,1.8500002624932677e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003392999933566898
+cora,291,random,1.8500002624932677e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0003569000036804937
+cora,291,nearest_first,0.00010210000618826598,measured,CPU baseline scoring; excludes fidelity,0.0,0.0002832999962265603
+cora,291,nearest_first,0.00010210000618826598,measured,CPU baseline scoring; excludes fidelity,1.0,0.00030890000198269263
+cora,291,nearest_first,0.00010210000618826598,measured,CPU baseline scoring; excludes fidelity,2.0,0.00037480000173673034
+cora,291,nearest_first,0.00010210000618826598,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003167999966535717
+cora,291,nearest_first,0.00010210000618826598,measured,CPU baseline scoring; excludes fidelity,4.0,0.0003646000041044317
+cora,234,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,234,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,234,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,234,random,1.9400002202019095e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00034250000317115337
+cora,234,random,1.9400002202019095e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00035989999742014334
+cora,234,random,1.9400002202019095e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.0003571999986888841
+cora,234,random,1.9400002202019095e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00035370000114198774
+cora,234,random,1.9400002202019095e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00034050000249408185
+cora,234,nearest_first,0.00010019999899668619,measured,CPU baseline scoring; excludes fidelity,0.0,0.0003584000005503185
+cora,234,nearest_first,0.00010019999899668619,measured,CPU baseline scoring; excludes fidelity,1.0,0.0005486000009113923
+cora,234,nearest_first,0.00010019999899668619,measured,CPU baseline scoring; excludes fidelity,2.0,0.0004027999966638163
+cora,234,nearest_first,0.00010019999899668619,measured,CPU baseline scoring; excludes fidelity,3.0,0.0003987000018241815
+cora,234,nearest_first,0.00010019999899668619,measured,CPU baseline scoring; excludes fidelity,4.0,0.00040669999725650996
+cora,283,saliency,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,283,gnnexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,283,pgexplainer,,unavailable,per_node_runtime_not_in_T05_CSV,,
+cora,283,random,2.0699997548945248e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00036749999708263204
+cora,283,random,2.0699997548945248e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00031569999555358663
+cora,283,random,2.0699997548945248e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.000363900006050244
+cora,283,random,2.0699997548945248e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.00030900000274414197
+cora,283,random,2.0699997548945248e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.00033070000063162297
+cora,283,nearest_first,5.570000212173909e-05,measured,CPU baseline scoring; excludes fidelity,0.0,0.00026620000426191837
+cora,283,nearest_first,5.570000212173909e-05,measured,CPU baseline scoring; excludes fidelity,1.0,0.00033230000553885475
+cora,283,nearest_first,5.570000212173909e-05,measured,CPU baseline scoring; excludes fidelity,2.0,0.00033089999487856403
+cora,283,nearest_first,5.570000212173909e-05,measured,CPU baseline scoring; excludes fidelity,3.0,0.0002882999979192391
+cora,283,nearest_first,5.570000212173909e-05,measured,CPU baseline scoring; excludes fidelity,4.0,0.0003561999983503483

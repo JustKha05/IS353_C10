@@ -1,0 +1,47 @@
+{
+  "mode": "audit_only",
+  "source_scores_sha256": "102b49ffa3cc0a8e1acd187a0f2c2535fbf5c5b9d59dcaccc6e12076336152c2",
+  "source_scores": "edge_scores.csv",
+  "budgets": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "baseline_repeat_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "datasets": [
+    "bashapes",
+    "cora"
+  ],
+  "nodes_per_dataset": 20,
+  "python": "3.13.3",
+  "torch": "2.14.1+cpu",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "device": "cpu",
+  "assets": {},
+  "checkpoint_provenance": "CSV has no checkpoint hash. Prediction and candidate checks do not prove identical original weights.",
+  "runtime_note": "T05 CSV has no per-node explainer runtime. Not reconstructed from evaluation duration.",
+  "keep_policy": "selected edges only on full feature matrix; explicit self-loops retained; model implicit self-loops remain",
+  "auc_policy": "raw tied scores; single-class candidates => NaN; AP is average_precision_score, not trapezoidal PR-AUC",
+  "std_policy": "sample SD across nodes (ddof=1), baseline repeats averaged per node first",
+  "tie_policy": "seeded uniform permutation, stable descending raw scores, one order reused across all budgets",
+  "git_commit": "3498bf721fdefc8bbd31b10325e47cbfaace7c23",
+  "git_dirty": true,
+  "error_count": 0,
+  "status": "audit_passed",
+  "expected_nodes": {
+    "bashapes": 20,
+    "cora": 20
+  },
+  "scored_nodes": {
+    "bashapes": 0,
+    "cora": 0
+  }
+}

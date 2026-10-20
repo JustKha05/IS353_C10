@@ -1,0 +1,7 @@
+dataset,method,metric,mean,std,n_valid_nodes,n_total_nodes
+bashapes,gnnexplainer,score_runtime_sec,,,0,20
+bashapes,pgexplainer,score_runtime_sec,,,0,20
+bashapes,saliency,score_runtime_sec,,,0,20
+cora,gnnexplainer,score_runtime_sec,,,0,20
+cora,pgexplainer,score_runtime_sec,,,0,20
+cora,saliency,score_runtime_sec,,,0,20

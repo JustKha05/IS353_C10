@@ -1,0 +1,7 @@
+dataset,method,n_nodes,edge_rows,mean_candidate_edges
+bashapes,saliency,20,3473,173.65
+bashapes,gnnexplainer,20,3473,173.65
+bashapes,pgexplainer,20,3473,173.65
+cora,saliency,20,703,35.15
+cora,gnnexplainer,20,703,35.15
+cora,pgexplainer,20,703,35.15

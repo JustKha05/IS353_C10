@@ -12,6 +12,21 @@
 
 ---
 
+## Bổ sung của Đức + Kha so với repository gốc
+
+| Thay đổi | Ý nghĩa |
+|---|---|
+| Thêm `notebooks/05_duc_kha_evaluation/01_baseline_evaluation.ipynb` và `results/` | Code notebook và kết quả đánh giá nằm trong thư mục riêng của phân nhóm. |
+| Thêm `src/sna/evaluation/` | Bộ tính dùng chung cho notebook: baseline T03, phá hòa, metrics và kiểm tra đầu vào. Không đổi thuật toán T05. |
+| Random điểm hằng, nearest-first theo khoảng cách; phá hòa riêng | AUROC dùng điểm thô đúng quy ước; một thứ tự dùng cho mọi k trong repeat. |
+| Đánh giá k=1/3/5/10, 5 repeat baseline | Đối chiếu nhiều ngân sách; repeat không được tính thành node độc lập. |
+| Kiểm tra validation/checkpoint/candidate; ghi NaN, lỗi và hash | Kết quả có thể truy vết; không che metric không xác định. |
+| Thêm bảng T06 trong docs và cập nhật mục kết quả README | Bảng mới khớp kết quả thực chạy; giữ bảng T05 cũ làm lịch sử. |
+
+**Bắt đầu:** mở [notebook Đức + Kha](notebooks/05_duc_kha_evaluation/01_baseline_evaluation.ipynb). Mặc định xem và kiểm tra kết quả đã bàn giao; đặt `RUN_EVALUATION = True` để chạy lại trên đúng bộ `.pt`. Xem [hướng dẫn](notebooks/05_duc_kha_evaluation/README.md).
+
+**Phạm vi bảo toàn:** giữ nguyên datasets/checkpoint, scores và notebook T05, module explainer/baseline/metrics cũ. Bộ đánh giá mới dùng `sna.evaluation`; các hàm legacy giữ giao thức lịch sử. Kết quả mới không bổ sung được runtime explainer hoặc checkpoint hash còn thiếu trong scores T05.
+
 ## 1. Lộ trình Nghiên cứu Tổng thể (8 Tuần & 8 Thí nghiệm)
 
 Đồ án được thiết kế theo 3 giai đoạn nghiên cứu bám sát đề cương và yêu cầu học thuật của TS. Trần Hưng Nghiệp:
