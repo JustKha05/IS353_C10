@@ -1,5 +1,6 @@
-> **Bổ sung T03/T06/T09 — Đức + Kha:** xem [hướng dẫn chạy Windows](docs/HUONG_DAN_DUC_KHA.md). Chạy `python scripts/evaluate_duc_kha.py --audit-only` để kiểm tra CSV; tải đúng `.pt` của T05 rồi chạy `python scripts/evaluate_duc_kha.py` để đánh giá thật. Kết quả giao thức mới ở `evaluation/reports/duc_kha/`; các bảng giữa kỳ cũ bên dưới chỉ là kết quả lịch sử, cần tái tính khi đổi baseline/phá hòa. Không có slide trong bổ sung này.
-
+> **Bổ sung T03/T06/T09 — Đức + Kha:** thực hiện trong [notebook đánh giá](notebooks/05_duc_kha_evaluation/01_baseline_evaluation.ipynb), gồm kiểm tra đầu vào, hai baseline Random/Nearest-first, fidelity, ground-truth metrics và agreement. Kết quả đầy đủ nằm trong [results/](notebooks/05_duc_kha_evaluation/results/).
+>
+> **[BẢNG SỐ LIỆU MIDTERM T06 — ĐỨC + KHA](docs/BANG_SO_LIEU_MIDTERM_T06_DUC_KHA.md)** tổng hợp fidelity, AUROC, Average Precision, Jaccard, Kendall tau-b, runtime baseline, nhận xét và giới hạn. Đánh giá trên 40 node validation, ngân sách k = 1, 3, 5, 10 và 5 repeat baseline; thu được 2.080 dòng metrics, 6.080 dòng agreement, không ghi nhận lỗi. Báo cáo trình bày mean, SD mẫu và số node hợp lệ; giữ NaN cho metric không xác định. Các bảng T05 bên dưới được giữ làm kết quả lịch sử; sử dụng bảng T06 cho giao thức đánh giá mới. Phần bổ sung không gồm slide.
 
 
 # GNN Explainability Benchmark & Analysis (SNA - UIT 2026)
